@@ -3,10 +3,10 @@ function deleteMe(element) {
   element.remove();
 }
 
-function call(element){
-  alert("Ninja was liked")
+function call(element) {
+  alert("Ninja was liked");
 }
 
-function login(element,innerText){
-  element.innerText ="Logout"
+function login(element) {
+  element.innerText = "Logout";
 }
