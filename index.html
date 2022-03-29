@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Button Clicker</title>
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <nav>
+    <div class="container flex">
+      <h1>Dojonary</h1>
+      <ul id="menu">
+        <input type="text" name="search" id="searchbar" value="Search">
+      </ul>
+      <button onclick="login(this)" id="login">Login</button>
+        </nav>
+    </div>
+     <!-- left Column -->
+    <main class="flex container">
+      <div class="left-column flex">
+        <div class="verb">
+          <h1>ninja</h1>
+          <em>noun</em>
+          <P>Plural:<span><em>ninjas</em></span></P>
+          <button onclick="call(this)" id="like">13 likes</button>
+        </div>
+        <div class="definition">
+          <p>A practitioner skilled in the<br> <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+        </div>
+        
+      </div>
+      
+
+      
+      <!-- Right Column-->
+      <div class="right-column">
+        <h2>Dojonary is <br>defined by YOU</h2>
+        <button onclick="deleteMe(this)" id="addDefinition">Add Definition</button>
+      </div>
+    </main>
+    <!-- Bottom Left -->
+    <main class=" container ">
+      <div id="bottomdiv" class="left-column flex">
+        <div class="verb">
+          <h1>ninja</h1>
+          <em>noun</em>
+          <P>Plural:<span><em>ninjas</em></span></P>
+          <button id="like">37 likes</button>
+        </div>
+        <div class="definition">
+          <p>A <a href="#">programmer</a>who breaks<br>  down problem with <a href="#">zen</a>-like <br>focus</p>
+        </div>
+        
+      </div>
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+/* utility classes */
+.flex {
+  /* flex container properties */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+nav {
+  background-color: #ccc;
+  padding: 1rem;
+  width: 75%;
+  margin: auto;
+}
+h1 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 15px 15px 0 ;
+}
+#searchbar {
+  height: 30px;
+  width: 300px;
+  border: 2px solid #111;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #ccc;
+}
+#searchbar:hover,
+#searchbar:focus {
+  border: 2px solid #009688;
+  background-color: bisque;
+}
+#login {
+  padding: 7px 20px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #009688;
+  border: 2px solid #111;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+#login:hover {
+  background-color: yellowgreen;
+}
+/* Start main classes */
+.left-column {
+  border: 2px solid #111;
+  margin-top: 50px;
+  align-self: Start;
+  flex:2;
+}
+
+
+
+.verb em {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.verb p {
+  margin-left: 10px;
+  font-weight: 400px;
+  font-size: 20px;
+  padding: 10px;
+}
+#like {
+  background-color:yellow;
+  padding: 8px 20px;
+  margin: 20px;
+  font-weight: 900;
+  font-size: 25px;
+  box-shadow: 5px 5px;
+}
+.definition {
+  margin-left: 10px;
+  font-weight: 400px;
+  font-size: 20px;
+  margin-left:50px
+ align-self: start;
+ flex:2;
+}
+
+.definition a {
+  color: #0D5695;
+  font-weight: 700;
+}
+
+.right-column {
+  border: 2px solid #111;
+  margin-top: 50px;
+  align-self: Start;
+  flex:1;
+}
+.right-column h2 {
+  padding: 8px 20px;
+  
+  font-weight: 900;
+  font-size: 25px;
+}
+#addDefinition {
+  background-color:#93C47D;
+  padding: 8px 30px;
+  margin: 20px;
+  font-weight: 900;
+  font-size: 25px;
+  box-shadow: 5px 5px;
+}
+/* End main classes */
+#bottomdiv{
+  width: 563.17px;
+}
